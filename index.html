@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Candal" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="//normalize-css.googlecode.com/svn/">
+	<title>My Portfolio</title>
+</head>
+
+<body>
+	<div class="container">
+		<header class="title">
+			<div class="logo">
+				<picture>
+					<source media="(min-width: 361px)" srcset="images_dst/logo_wu-200.png">
+					<source media="(max-width: 360px)" srcset="images_dst/logo_wu-100.png">
+					<img src="images_dst/logo_wu-200.png" alt="Character Wu">
+					<!-- http://dict.zwbk.org/DicShowDic.aspx?did=1098 -->
+				</picture>
+			</div>
+			<div class="name">
+				<h1>Wu Lei</h1>
+				<h3>Front-End Web Developer</h3>				
+			</div>
+		</header>
+	</div>
+		<div class="hero">
+			<picture>
+				<source media="(min-width: 1201px)" srcset="images_dst/hero_chip-1600.png">
+				<source media="(min-width: 961px)" srcset="images_dst/hero_chip-1024.png">
+				<source media="(min-width: 481px)" srcset="images_dst/hero_chip-800.png">
+				<source media="(max-width: 480px)" srcset="images_dst/hero_chip-400.png">
+				<img src="images_dst/hero_chip-1600.png" alt="hero image">
+			</picture>
+		</div>
+	<div class="container">
+		<article class="row">
+
+			<div class="row">
+				<h2>Featured Works</h2>
+			</div>
+			<div class="projects">
+				<section class="resume">
+					<picture>
+						<img src="http://placekitten.com/555/300" alt="Resume" class="responsive" data-toggle="modal" data-target="#project1">
+					</picture>
+					<h3>Resume</h3>
+					<p><a href="http://github.com">Details...</a></p>
+				</section>
+				<section class="arcade_game">
+					<picture>
+						<img src="http://placehold.it/555x300" alt="Arcade game" class="responsive" data-toggle="modal" data-target="#project2">
+					</picture>
+					<h3>Arcade Game</h3>
+					<p><a href="http://github.com">Details...</a></p>
+				</section>
+				<section class="web_optimization">
+					<picture>
+						<img src="http://placehold.it/555x300" alt="Web Optimization" class="responsive" data-toggle="modal" data-target="#project3">
+					</picture>
+					<h3>Web Optimizaiton</h3>
+					<p><a href="http://github.com">Details...</a></p>
+				</section>
+				<section class="neighborhood_map">
+					<picture>
+						<img src="http://placehold.it/555x300" alt="Neighborhood Map" class="responsive" data-toggle="modal" data-target="#project4">
+					</picture>
+					<h3>Neighborhood Map</h3>
+					<p><a href="http://github.com">Details...</a></p>
+				</section>
+				<section class="health_tracker">
+					<picture>
+						<img src="http://placehold.it/555x300" alt="Health Tracker" class="responsive" data-toggle="modal" data-target="#project5">
+					</picture>
+					<h3>Health Tracker</h3>
+					<p><a href="http://github.com">Details...</a></p>
+				</section>
+				<section class="feed_reader_testing">
+					<picture>
+						<img src="http://placehold.it/555x300" alt="Feed Reader Testing" class="responsive" data-toggle="modal" data-target="#project6">
+					</picture>
+					<h3>Reader Feed Testing</h3>
+					<p><a href="http://github.com">Details...</a></p>
+				</section>
+			</div>
+<!-- 			<div class="row">
+				<div class="col-md-4">
+					<picture>
+						<img src="http://placekitten.com/555/300" alt="Resume" class="responsive" data-toggle="modal" data-target="#project1">
+					</picture>
+					<h3>Resume</h3>
+					<p><a href="http://github.com">Details...</a></p>
+				</div>
+				<div class="col-md-4">
+					<picture>
+						<img src="http://placehold.it/555x300" alt="Arcade game" class="responsive" data-toggle="modal" data-target="#project2">
+					</picture>
+					<h3>Aracade Game</h3>
+					<p><a href="http://github.com">Details...</a></p>
+				</div>
+				<div class="col-md-4">
+					<picture>
+						<img src="http://placehold.it/555x300" alt="Website Optimization" class="responsive" data-toggle="modal" data-target="#project3">
+					</picture>
+					<h3>Website Optimization</h3>
+					<p><a href="http://github.com">Details...</a></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<picture>
+						<img src="http://placehold.it/555x300" alt="Neighborhood Map" class="responsive" data-toggle="modal" data-target="#project4">
+					</picture>
+					<h3>Neighborhood Map</h3>
+					<p><a href="http://github.com">Details...</a></p>
+				</div>
+				<div class="col-md-4">
+					<picture>
+						<img src="http://placehold.it/555x300" alt="Health tracker" class="responsive" data-toggle="modal" data-target="#project5">
+					</picture>
+					<h3>Health Tracker</h3>
+					<p><a href="http://github.com">Details...</a></p>
+				</div>
+				<div class="col-md-4">
+					<picture>
+						<img src="http://placehold.it/555x300" alt="Feed reader testing" class="responsive" data-toggle="modal" data-target="#project6">
+					</picture>
+					<h3>Feed Reader Testing</h3>
+					<p><a href="http://github.com">Details...</a></p>
+				</div>
+			</div> -->
+			
+		</article>
+		<footer class="row">
+		<p>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer">
+			    <img style="border:0;width:88px;height:31px"
+			        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+			        alt="Valid CSS!" />
+			    </a>
+			</p>
+
+			<p>Copyright © 2015 - Wu Lei</p>
+		</footer>
+	</div>
+
+	<!-- Modal -->
+		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel1">My project</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-responsive" src="http://placekitten.com/555/300" alt="project1">
+		        This was my resume as a fresh web developer, welcome!
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel2">My project</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-responsive" src="http://placehold.it/555x300" alt="project2">
+		        Coming soon...
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel3">My project</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-responsive" src="http://placehold.it/555x300" alt="project3">
+		        Coming soon...
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel4">My project</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-responsive" src="http://placehold.it/555x300" alt="project4">
+		        Coming soon...
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel5">My project</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-responsive" src="http://placehold.it/555x300" alt="project5">
+		        Coming soon...
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel6">My project</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-responsive" src="http://placehold.it/555x300" alt="project6">
+		        Coming soon...
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	<!-- /Modal -->
+</body>
+</html>

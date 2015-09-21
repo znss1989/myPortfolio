@@ -1,0 +1,28 @@
+article {
+	border-bottom: solid 2px #BCBBBB;
+	margin-bottom: 25px;
+}
+footer {
+	text-align: center;
+}
+h1 {
+	font-family: 'Candal', sans-serif;
+}
+h2 {
+	font-family: 'Francois One', sans-serif;
+}
+h3 {
+	font-family: 'Pacifico', cursive;
+}
+
+.hero {
+	text-align: center;
+}
+.hero img {
+	width: 100%;
+}
+
+section img {
+	width: 100%;
+	padding: 5px;
+}

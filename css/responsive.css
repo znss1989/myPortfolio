@@ -1,0 +1,62 @@
+.title {
+	display: flex;
+	flex-wrap: wrap;
+}
+@media screen and (min-width: 480px) {
+	.logo, .name {
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+}
+
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*@media screen and (max-width: 479px){
+
+}
+*/
+@media screen and (min-width: 301px){
+	.resume{
+		width: 50%;
+	}
+	.arcade_game{
+		width: 50%;
+	}
+	.web_optimization{
+		width: 50%;
+	}
+	.neighborhood_map{
+		width: 50%;
+	}
+	.health_tracker{
+		width: 50%;
+	}
+	.feed_reader_testing{
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	.resume{
+		width: 33.3%;
+	}
+	.arcade_game{
+		width: 33.3%;
+	}
+	.web_optimization{
+		width: 33.3%;
+	}
+	.neighborhood_map{
+		width: 33.3%;
+	}
+	.health_tracker{
+		width: 33.3%;
+	}
+	.feed_reader_testing{
+		width: 33.3%;
+	}
+}
