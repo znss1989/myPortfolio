@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/responsive.css">
-	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Candal" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Candal" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 	<link rel="stylesheet" href="//normalize-css.googlecode.com/svn/">
 	<title>My Portfolio</title>
 </head>
@@ -27,7 +26,7 @@
 			</div>
 			<div class="name">
 				<h1>Wu Lei</h1>
-				<h3>Front-End Web Developer</h3>				
+				<h3>Front-End Web Developer</h3>
 			</div>
 		</header>
 	</div>
@@ -37,7 +36,7 @@
 				<source media="(min-width: 961px)" srcset="images_dst/hero_chip-1024.png">
 				<source media="(min-width: 481px)" srcset="images_dst/hero_chip-800.png">
 				<source media="(max-width: 480px)" srcset="images_dst/hero_chip-400.png">
-				<img src="images_dst/hero_chip-1600.png" alt="hero image">
+				<img class="hero_img" src="images_dst/hero_chip-1600.png" alt="hero image">
 			</picture>
 		</div>
 	<div class="container">
@@ -49,42 +48,42 @@
 			<div class="projects">
 				<section class="resume">
 					<picture>
-						<img src="http://placekitten.com/555/300" alt="Resume" class="responsive" data-toggle="modal" data-target="#project1">
+						<img class="section_img" src="http://placekitten.com/555/300" alt="Resume" class="responsive" data-toggle="modal" data-target="#project1">
 					</picture>
 					<h3>Resume</h3>
 					<p><a href="http://github.com">Details...</a></p>
 				</section>
 				<section class="arcade_game">
 					<picture>
-						<img src="http://placehold.it/555x300" alt="Arcade game" class="responsive" data-toggle="modal" data-target="#project2">
+						<img class="section_img" src="http://placehold.it/555x300" alt="Arcade game" class="responsive" data-toggle="modal" data-target="#project2">
 					</picture>
 					<h3>Arcade Game</h3>
 					<p><a href="http://github.com">Details...</a></p>
 				</section>
 				<section class="web_optimization">
 					<picture>
-						<img src="http://placehold.it/555x300" alt="Web Optimization" class="responsive" data-toggle="modal" data-target="#project3">
+						<img class="section_img" src="http://placehold.it/555x300" alt="Web Optimization" class="responsive" data-toggle="modal" data-target="#project3">
 					</picture>
 					<h3>Web Optimizaiton</h3>
 					<p><a href="http://github.com">Details...</a></p>
 				</section>
 				<section class="neighborhood_map">
 					<picture>
-						<img src="http://placehold.it/555x300" alt="Neighborhood Map" class="responsive" data-toggle="modal" data-target="#project4">
+						<img class="section_img" src="http://placehold.it/555x300" alt="Neighborhood Map" class="responsive" data-toggle="modal" data-target="#project4">
 					</picture>
 					<h3>Neighborhood Map</h3>
 					<p><a href="http://github.com">Details...</a></p>
 				</section>
 				<section class="health_tracker">
 					<picture>
-						<img src="http://placehold.it/555x300" alt="Health Tracker" class="responsive" data-toggle="modal" data-target="#project5">
+						<img class="section_img" src="http://placehold.it/555x300" alt="Health Tracker" class="responsive" data-toggle="modal" data-target="#project5">
 					</picture>
 					<h3>Health Tracker</h3>
 					<p><a href="http://github.com">Details...</a></p>
 				</section>
 				<section class="feed_reader_testing">
 					<picture>
-						<img src="http://placehold.it/555x300" alt="Feed Reader Testing" class="responsive" data-toggle="modal" data-target="#project6">
+						<img class="section_img" src="http://placehold.it/555x300" alt="Feed Reader Testing" class="responsive" data-toggle="modal" data-target="#project6">
 					</picture>
 					<h3>Reader Feed Testing</h3>
 					<p><a href="http://github.com">Details...</a></p>
@@ -136,13 +135,12 @@
 					<p><a href="http://github.com">Details...</a></p>
 				</div>
 			</div> -->
-			
+
 		</article>
 		<footer class="row">
-		<p>
-			<a href="http://jigsaw.w3.org/css-validator/check/referer">
-			    <img style="border:0;width:88px;height:31px"
-			        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+			<p>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer">
+			    	<img class="footer_img" src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
 			        alt="Valid CSS!" />
 			    </a>
 			</p>
@@ -249,5 +247,7 @@
 		  </div>
 		</div>
 	<!-- /Modal -->
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

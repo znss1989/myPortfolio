@@ -1,28 +1,39 @@
 article {
-	border-bottom: solid 2px #BCBBBB;
+	border-bottom: solid 2px #bcbbbb;
 	margin-bottom: 25px;
 }
+
 footer {
 	text-align: center;
 }
+
 h1 {
-	font-family: 'Candal', sans-serif;
+	font-family: "Candal", sans-serif;
 }
+
 h2 {
-	font-family: 'Francois One', sans-serif;
+	font-family: "Francois One", sans-serif;
 }
+
 h3 {
-	font-family: 'Pacifico', cursive;
+	font-family: "Pacifico", cursive;
 }
 
 .hero {
 	text-align: center;
 }
-.hero img {
+
+.hero_img {
 	width: 100%;
 }
 
-section img {
+.section_img {
 	width: 100%;
-	padding: 5px;
+	padding: 1em;
+}
+
+.footer_img {
+	border:0;
+	width:88px;
+	height:31px";
 }
