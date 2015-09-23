@@ -2,24 +2,22 @@
 	display: flex;
 	flex-wrap: wrap;
 }
-@media screen and (min-width: 480px) {
-	.logo, .name {
-	width: 50%;
-	float: left;
-	padding: 10px;
-}
-}
 
+@media screen and (min-width: 480px) {
+	.logo, 
+    .name {
+	   width: 50%;
+	   float: left;
+	   padding: 10px;
+    }
+}
 
 .projects {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
-/*@media screen and (max-width: 479px){
 
-}
-*/
-@media screen and (min-width: 301px){
+@media screen and (min-width: 301px) {
 	.resume{
 		width: 50%;
 	}
@@ -40,7 +38,7 @@
 	}
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
 	.resume{
 		width: 33.3%;
 	}
